@@ -4,7 +4,7 @@ import First from "./First.jsx";
 function App() {
 return(
 <div>
-  <First  start = {22} />
+  <First  start = {0} />
 </div>
 );
 }

@@ -1,6 +1,7 @@
 import React, {useState} from "react"; 
 function First(props)
-{ const [count , Setcount] = useState (props.start)
+{ 
+  const [count , Setcount] = useState (props.start)
    return(
      <div>
        <h1> count is {count}</h1> 
